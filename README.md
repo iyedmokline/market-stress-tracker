@@ -5,10 +5,6 @@
   Built during a front-office trading internship at <b>BIAT</b> (Banque Internationale Arabe de Tunisie) – Summer 2025
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/0000000/market-stress-dashboard-demo.png" alt="Dashboard Demo" width="700"/>
-</p>
-
 ---
 
 ## 🔍 Overview
@@ -74,12 +70,13 @@ Developed during a **front-office internship at BIAT**, this project integrates 
 
 ```bash
 pip install -r requirements.txt
-
 streamlit run market_stress_dashboard.py
+
 market-stress-tracker/
-├── Market_stress_tracker.py     # Core logic (data, indicators, plots)
-├── market_stress_dashboard.py   # Streamlit interface
-├── graphe.py                    # Historical line plot
-├── requirements.txt             # Dependencies
-└── README.md                    # You're here
+├── market_stress_tracker.py       # Core logic (data, indicators, plots)
+├── market_stress_dashboard.py     # Streamlit interface
+├── graphe.py                      # Historical line plot
+├── requirements.txt               # Dependencies
+└── README.md                      # You're here
+
 
