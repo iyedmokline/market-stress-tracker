@@ -74,4 +74,12 @@ Developed during a **front-office internship at BIAT**, this project integrates 
 
 ```bash
 pip install -r requirements.txt
+
 streamlit run market_stress_dashboard.py
+market-stress-tracker/
+├── Market_stress_tracker.py     # Core logic (data, indicators, plots)
+├── market_stress_dashboard.py   # Streamlit interface
+├── graphe.py                    # Historical line plot
+├── requirements.txt             # Dependencies
+└── README.md                    # You're here
+
