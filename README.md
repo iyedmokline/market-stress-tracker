@@ -5,6 +5,14 @@
   Built during a front-office trading internship at <b>BIAT</b> (Banque Internationale Arabe de Tunisie) – Summer 2025
 </p>
 
+<p align="center">
+  <a href="https://github.com/mmokline/market-stress-tracker/stargazers">
+  </a>
+  <a href="https://github.com/mmokline/market-stress-tracker/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/mmokline/market-stress-tracker" alt="MIT License"/>
+  </a>
+</p>
+
 ---
 
 ## 🔍 Overview
