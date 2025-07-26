@@ -81,10 +81,13 @@ pip install -r requirements.txt
 streamlit run market_stress_dashboard.py
 
 market-stress-tracker/
-├── market_stress_engine.py    # Core logic (data, indicators, plots)
-├── dashboard_app.py    # Streamlit interface
-├── stress_index_plot.py    # Historical line plot
-├── requirements.txt               # Dependencies
-└── README.md                      # You're here
+├── src/
+│   ├── market_stress_engine.py   # Core logic (data, indicators, plots)
+│   ├── dashboard_app.py          # Streamlit interface
+│   ├── stress_index_plot.py      # Historical line plot
+│   └── __init__.py               # Package marker
+├── requirements.txt              # Dependencies
+└── README.md                     # You're here
+
 
 
