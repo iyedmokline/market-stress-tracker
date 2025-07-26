@@ -21,7 +21,7 @@ from datetime import date, timedelta
 import plotly.graph_objects as go
 from plotly.graph_objects import Indicator, Figure
 
-from market_stress_engine import (
+from src.market_stress_engine import (
     DataManager,
     CompositeStress,
     TICKERS,
