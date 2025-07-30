@@ -40,7 +40,7 @@ ax.plot(x, values, color='#1f77b4', linewidth=2.5, zorder=3)
 ax.scatter(x, values, color='white', edgecolor='#1f77b4', s=60, zorder=4, linewidth=2)
 
 # Styled title
-ax.set_title("Composite Market Stress Index\nJune 16 → July 25, 2025",
+ax.set_title("Composite Market Stress Index\nJune 16 → July 29, 2025",
              fontsize=18, fontweight='bold', color='#222222', loc='center')
 
 # Axes and labels
