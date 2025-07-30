@@ -86,6 +86,11 @@ market-stress-tracker/
 │   ├── dashboard_app.py          # Streamlit interface
 │   ├── stress_index_plot.py      # Historical line plot
 │   └── __init__.py               # Package marker
+├── results/         
+│   ├── dashboard_2025-07-29.png
+│   ├── stress_line.png
+│   ├── gauge_2025-07-29.png
+│   └── radar_2025-07-29.png
 ├── requirements.txt              # Dependencies
 └── README.md                     # You're here
 
