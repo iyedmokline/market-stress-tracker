@@ -14,7 +14,7 @@ dates = [
     "2025-07-28", "2025-07-29", "2025-07-30", "2025-07-31", "2025-08-01",
     "2025-08-04", "2025-08-05", "2025-08-06", "2025-08-07", "2025-08-08",
     "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-15",
-    "2025-08-18"
+    "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21"
 ]
 
 values = [
@@ -27,7 +27,7 @@ values = [
     30.01, 31.19, 37.81, 37.16, 42.69,
     57.12, 58.85, 54.35, 53.25, 53.79,
     53.15, 53.06, 51.24, 49.29, 46.65,
-    31.85
+    31.85, 26.68, 27.69, 29.98
 ]
 
 x = [datetime.strptime(d, "%Y-%m-%d") for d in dates]
@@ -46,7 +46,7 @@ ax.plot(x, values, color='#1f77b4', linewidth=2.5, zorder=3)
 ax.scatter(x, values, color='white', edgecolor='#1f77b4', s=60, zorder=4, linewidth=2)
 
 # Styled title
-ax.set_title("Composite Market Stress Index\nJune 16 → August 18, 2025",
+ax.set_title("Composite Market Stress Index\nJune 16 → August 22, 2025",
              fontsize=18, fontweight='bold', color='#222222', loc='center')
 
 # Axes and labels
