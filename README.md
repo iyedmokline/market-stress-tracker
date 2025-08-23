@@ -22,6 +22,14 @@ It aggregates normalized volatility signals from **8 macroeconomic and risk-sens
 
 Developed during a **front-office internship at BIAT**, this project integrates practical knowledge from FX, Options, and Commodities desks to design and weight each component.
 
+**Objective:** Provide traders and risk managers with a clear composite indicator of market stress to **monitor sentiment, contextualize volatility, and support communication**, rather than act as a direct trading signal.  
+
+**Key Features:**  
+- 📊 Composite stress index (0–100) built from FX, commodities, equity, and volatility indicators.  
+- 🕹️ Interactive visualizations including radar charts and gauge trackers.  
+- ⚡ Real-time data integration for daily monitoring and quick interpretation.  
+- 🧩 Modular design allowing easy adjustment of weights and asset components.  
+
 ---
 
 ## ⚙️ Tech Stack
